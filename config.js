@@ -1,7 +1,7 @@
 const config = {
 	"gatsby": {
 		"pathPrefix": "/",
-		"siteUrl": "https://babulya-gatsby.netlify.com/",
+		"siteUrl": "https://kaila.netlify.com/",
 		"gaTrackingId": null,
 		"trailingSlash": false
 	},
@@ -27,21 +27,23 @@ const config = {
 		"forcedNavOrder": [
 			"/introduction", // add trailing slash if enabled above
     		"/codeblock",
-			"/2-codeblock" 
+			 "/2-codeblock",
+       "/3-codeblock"
 		],
     	"collapsedNav": [
       		"/codeblock", // add trailing slash if enabled above
-			"/2-codeblock" // add trailing slash if enabled above
+			    "/2-codeblock",
+          "/3-codeblock"// add trailing slash if enabled above
     	],
 		"links": [
-			{ "text": "Babulya", "link": ""},
+			{ "text": "Kaila", "link": ""},
 		],
 		"frontline": false,
 		"ignoreIndex": true,
 	},
 	"siteMetadata": {
-		"title": "Babulya",
-		"description": "Documentation Babulya ",
+		"title": "Kaila",
+		"description": "Documentation Kaila ",
 		"ogImage": null,
 		"docsLocation": "",
 		"favicon": "https://www.babulya.com.ua/wp-content/uploads/2019/11/favicon_result.jpg"
@@ -49,8 +51,8 @@ const config = {
 	"pwa": {
 		"enabled": false, // disabling this will also remove the existing service worker.
 		"manifest": {
-			"name": "Babulya",
-			"short_name": "Babulya",
+			"name": "Kaila",
+			"short_name": "Kaila",
 			"start_url": "/",
 			"background_color": "#6b37bf",
 			"theme_color": "#6b37bf",
