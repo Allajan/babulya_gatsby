@@ -63,12 +63,3 @@ HTML.propTypes = {
   body: PropTypes.string,
   postBodyComponents: PropTypes.array,
 }
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-             <script>
-                  {`
-                    (adsbygoogle = window.adsbygoogle || []).push({
-                      data-ad-client="ca-pub-5069015577732499",
-                      enable_page_level_ads: true
-                    });
-                  `}
-             </script>
