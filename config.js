@@ -8,7 +8,7 @@ const config = {
 	"header": {
 		"logo": "https://www.babulya.com.ua/wp-content/uploads/2019/11/favicon_result.jpg",
 		"logoLink": "",
-		"title": "Babulya",
+		"title": "Kaila",
 		"githubUrl": "",
 		"helpUrl": "",
 		"tweetText": "",
