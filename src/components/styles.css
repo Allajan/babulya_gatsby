@@ -291,6 +291,10 @@ a:hover {
 }
 .navBarUL {
   -webkit-overflow-scrolling: touch;
+ 
+}
+.sideBarUL {
+ box-shadow: 0 0 4px rgba(0,0,0,0.4);	
 }
 .navBarUL li a {
   font-family: 'Roboto';
@@ -305,6 +309,7 @@ a:hover {
 {
   display: flex;
   align-items: center;
+  
 }
 .navBarUL li a img, .navBarUL li a .shareIcon
 {
@@ -317,9 +322,25 @@ a:hover {
 .navBarUL li a:hover {
   opacity: .7;
 }
+.navBarWrapper {
+box-shadow: 0 0 4px rgba(0,0,0,0.4);
+}
 pre {
   border: 0 !important;
+  border-radius:6px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
   background-color: rgb(245, 247, 249); /* !important; */
+  
+}
+.prism-code {
+     white-space: pre-wrap;       /* css-3 */
+     white-space: -moz-pre-wrap;  /* Mozilla, с 1999 */
+     white-space: -pre-wrap;      /* Opera 4-6 */
+     white-space: -o-pre-wrap;    /* Opera 7 */
+     word-wrap: break-word;	
+}
+.token-line {
+	left:1em;
 }
 
 blockquote {
@@ -969,5 +990,86 @@ img {
   }
   .searchWrapper {
     padding-left: 0px;
+  }
+}
+
+#cal {
+margin-left: 10px;
+bottom: 6px;
+position:fixed;
+z-index:999;
+}
+#clck {
+  margin-top:10px;
+  opacity:.7;
+  align-items: center;
+  justify-content: center;
+  max-width: 230px;
+ 
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-smooth: auto;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #444;  
+}
+
+.alarm-clock {
+  position: relative;  
+  border-radius: 10px; 
+  box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+.alarm-clock .date {
+  position: absolute;
+  bottom: 10px;
+  left: 44%;
+  font-weight: 900;
+  color: #1c00f1;
+  font-size: 12px;
+  text-transform: uppercase;
+  transform: translateX(-50%);
+  z-index: 9;
+}
+.alarm-clock .time {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px 0px 30px;
+  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+}
+.alarm-clock .time span {
+  position: relative;  
+  align-items: center;
+  justify-content: center;
+  color: #53a0ef;
+  text-shadow:1px 1px 2px black, 0 0 1em #ffffff;
+  line-height: 1.75;
+}
+
+.alarm-clock .time span.colon {
+  width: 12px;
+  text-align: center;
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
