@@ -36,7 +36,9 @@ html, body {
 
   font-size: 16px;
 }
-
+.goog-te-spinner-pos + div {
+height: auto !important;
+}
 a {
   transition: color 0.15s;
   color: #1a382f;
