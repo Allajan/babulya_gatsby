@@ -1,6 +1,6 @@
 ---
 title: "Введение"
-metaTitle: "This is the title tag of this page"
+metaTitle: "What About?"
 metaDescription: "This is the meta description"
 ---
 
