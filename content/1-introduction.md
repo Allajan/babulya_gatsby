@@ -4,7 +4,7 @@ metaTitle: "This is the title tag of this page"
 metaDescription: "This is the meta description"
 ---
 
-Время — наиболее драгоценный ресурс. Мы разрываемся на части, пытаясь успеть всё и сразу.
+Время — наиболее драгоценный ресурс.
 
 # Заголовок H1 Время — деньги!
 
