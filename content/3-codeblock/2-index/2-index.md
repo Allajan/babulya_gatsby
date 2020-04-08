@@ -24,7 +24,7 @@ metaDescription: "Как вставить изображение и видео �
 
 ## Вставка видео
 
-<div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/3Gb1Ajr0gwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div id="video"> <iframe width="560" height="315" src="https://www.youtube.com/embed/3Gb1Ajr0gwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 Поддерживает несколько языков.
 
