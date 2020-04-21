@@ -114,8 +114,11 @@ export default class MDXRuntimeTest extends Component {
             {mdx.fields.title}
           </h1>
           <Edit className={'mobileView'}>
+		  <p className="siteTitl">
+		   Jamstack для начинающих
+		  </p>
             <Link className={'gitBtn'} to={`https://www.babulya.com.ua/`}>
-              <img src={gitHub} alt={'Github logo'} /> Смотреть сайт Babulya
+              <img src={gitHub} alt={'Github logo'} />babulya.com.ua
             </Link>
           </Edit>
         </div>

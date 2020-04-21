@@ -39,7 +39,7 @@ html, body {
 
 a {
   transition: color 0.15s;
-  color: #1a382f;
+  color: #46a4c7;
 }
 
 
@@ -49,7 +49,13 @@ body {
 .visibleMobile {
   display: none;
 }
-
+.siteTitl {
+	color:#a826ff;
+	font-size:18px;
+	text-shadow:0 0 4px rgba(0,0,0,0.4);
+	font-style:italic;
+	font-weight:bold;
+}
 .video-responsive {
   position: relative;
   padding-bottom: 56.2%;
@@ -59,6 +65,7 @@ a {
 }
 a:hover {
   text-decoration: none;
+   color: #ed6beb;
 }
 .displayInline {
   display: inline-block;

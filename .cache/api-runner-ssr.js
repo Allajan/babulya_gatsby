@@ -1,17 +1,17 @@
 var plugins = [{
-      plugin: require('E:/TEMP/proekts_gatsby/site/babulya-gatsby/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('E:/TEMP/proekts_gatsby/babulya_gatsby/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('E:/TEMP/proekts_gatsby/site/babulya-gatsby/node_modules/gatsby-plugin-layout/gatsby-ssr'),
-      options: {"plugins":[],"component":"E:\\TEMP\\proekts_gatsby\\site\\babulya-gatsby\\src\\templates\\docs.js"},
+      plugin: require('E:/TEMP/proekts_gatsby/babulya_gatsby/node_modules/gatsby-plugin-layout/gatsby-ssr'),
+      options: {"plugins":[],"component":"E:\\TEMP\\proekts_gatsby\\babulya_gatsby\\src\\templates\\docs.js"},
     },{
-      plugin: require('E:/TEMP/proekts_gatsby/site/babulya-gatsby/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('E:/TEMP/proekts_gatsby/babulya_gatsby/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('E:/TEMP/proekts_gatsby/site/babulya-gatsby/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
+      plugin: require('E:/TEMP/proekts_gatsby/babulya_gatsby/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
       options: {"plugins":[],"gatsbyRemarkPlugins":[{"resolve":"gatsby-remark-images","options":{"maxWidth":1035,"sizeByPixelDensity":true}},{"resolve":"gatsby-remark-copy-linked-files"}],"extensions":[".mdx",".md"]},
     },{
-      plugin: require('E:/TEMP/proekts_gatsby/site/babulya-gatsby/node_modules/gatsby-plugin-gtag/gatsby-ssr'),
+      plugin: require('E:/TEMP/proekts_gatsby/babulya_gatsby/node_modules/gatsby-plugin-gtag/gatsby-ssr'),
       options: {"plugins":[],"trackingId":null,"head":true,"anonymize":false},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

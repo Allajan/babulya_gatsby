@@ -6,29 +6,29 @@ metaDescription: "This is the meta description"
 
 Время — наиболее драгоценный ресурс.
 
-# Заголовок H1 Время — деньги!
+# Turndown Demo
 
-Мы постараемся собрать ответы на наиболее распространенные незначительные вопросы, решение которых, на самом деле, и отнимают у нас 90% всего драгоценного времени. Мы постараемся упростить для вас поиск решений разных вопросов, чтобы вы могли сосредоточиться на чем-то более важном и стратегически ценном. В этих вопросах на сайте Babulya можно найти много интересных и полезных советов, основанных на жизненном опыте многих других новоиспеченных бабушек.
+This demonstrates [turndown](https://github.com/domchristie/turndown) – an HTML to Markdown converter in JavaScript.
 
+## Usage
 
-## Заголовок H2
-Heading 2 text
+```js
+var turndownService = new TurndownService()
+console.log(
+  turndownService.turndown('<h1>Hello world</h1>')
+)
+```
 
-### Заголовок H3
-Heading 3 text
+- - -
 
-#### Заголовок H4
-Heading 4 text
+It aims to be [CommonMark](http://commonmark.org/) compliant, and includes options to style the output. These options include:
 
-##### Заголовок H5
-Heading 5 text
-
-###### Заголовок H6
-Heading 6 text
-
-## Списки
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+-   headingStyle (setext or atx)
+-   horizontalRule (\*, -, or \_)
+-   bullet (\*, -, or +)
+-   codeBlockStyle (indented or fenced)
+-   fence (\` or ~)
+-   emDelimiter (\_ or \*)
+-   strongDelimiter (\*\* or \_\_)
+-   linkStyle (inlined or referenced)
+-   linkReferenceStyle (full, collapsed, or shortcut)

@@ -4,23 +4,31 @@ metaTitle: "Syntax Highlighting is the meta title tag for this page"
 metaDescription: "This is the meta description for this page"
 ---
 
-The following is a code block with JavaScript language syntax highlighting.
+Turndown Demo
+=============
 
-```javascript
-import React from 'react';
-```
+This demonstrates [turndown](https://github.com/domchristie/turndown) – an HTML to Markdown converter in JavaScript.
 
-Supports multiple languages.
+Usage
+-----
 
-The following is a code block with diff. Lines with `+` highlighted in green shade indicating an addition. Lines with `-` highlighted in red shade indicating a deletion.
+    var turndownService = new TurndownService()
+    console.log(
+      turndownService.turndown('Hello world')
+    )
 
-```javascript
-- const data = ['1','2'];
-+ const data = [1,2];
-```
+- - -
 
-## Live Editing example
+It aims to be [CommonMark](http://commonmark.org/) compliant, and includes options to style the output. These options include:
 
-```javascript react-live=true
-<button className={'btn btn-default'}>Change my text</button>
-```
+-   headingStyle (setext or atx)
+-   horizontalRule (\*, -, or \_)
+-   bullet (\*, -, or +)
+-   codeBlockStyle (indented or fenced)
+-   fence (\` or ~)
+-   emDelimiter (\_ or \*)
+-   strongDelimiter (\*\* or \_\_)
+-   linkStyle (inlined or referenced)
+-   linkReferenceStyle (full, collapsed, or shortcut)
+
+
